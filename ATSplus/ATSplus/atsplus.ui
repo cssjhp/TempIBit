@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ATSplusClass</class>
+ <widget class="QMainWindow" name="ATSplusClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>514</width>
+    <height>132</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ATSplus</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>514</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="nativeMenuBar">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="iconSize">
+    <size>
+     <width>48</width>
+     <height>48</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionLogin"/>
+   <addaction name="separator"/>
+   <addaction name="actionAcuity_Test"/>
+   <addaction name="actionCover_Test"/>
+   <addaction name="separator"/>
+   <addaction name="actionSettings"/>
+   <addaction name="separator"/>
+   <addaction name="actionExit"/>
+   <addaction name="separator"/>
+   <addaction name="actionHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionLogin">
+   <property name="icon">
+    <iconset resource="atsplus.qrc">
+     <normaloff>:/ATSplus/Resources/Login Icon.png</normaloff>:/ATSplus/Resources/Login Icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Login</string>
+   </property>
+   <property name="toolTip">
+    <string>Login</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+L</string>
+   </property>
+  </action>
+  <action name="actionAcuity_Test">
+   <property name="icon">
+    <iconset resource="atsplus.qrc">
+     <normaloff>:/ATSplus/Resources/acurityTest1.png</normaloff>:/ATSplus/Resources/acurityTest1.png</iconset>
+   </property>
+   <property name="text">
+    <string>Acuity Test</string>
+   </property>
+   <property name="toolTip">
+    <string>Visual Acuity Test</string>
+   </property>
+  </action>
+  <action name="actionCover_Test">
+   <property name="icon">
+    <iconset resource="atsplus.qrc">
+     <normaloff>:/ATSplus/Resources/coverTest.png</normaloff>:/ATSplus/Resources/coverTest.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cover Test</string>
+   </property>
+   <property name="toolTip">
+    <string>Cover Test</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="atsplus.qrc">
+     <normaloff>:/ATSplus/Resources/exit.png</normaloff>:/ATSplus/Resources/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="toolTip">
+    <string>Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="icon">
+    <iconset resource="atsplus.qrc">
+     <normaloff>:/ATSplus/Resources/help.png</normaloff>:/ATSplus/Resources/help.png</iconset>
+   </property>
+   <property name="text">
+    <string>Help</string>
+   </property>
+   <property name="toolTip">
+    <string>Help</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+H</string>
+   </property>
+  </action>
+  <action name="actionSettings">
+   <property name="icon">
+    <iconset resource="atsplus.qrc">
+     <normaloff>:/ATSplus/Resources/Setting-icon.png</normaloff>:/ATSplus/Resources/Setting-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Settings</string>
+   </property>
+   <property name="toolTip">
+    <string>Settings</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="atsplus.qrc"/>
+ </resources>
+ <connections/>
+</ui>

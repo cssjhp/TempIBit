@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="ATSplus">
+    <file>Resources/Setting-icon.png</file>
+    <file>Resources/help.png</file>
+    <file>Resources/acurityTest1.png</file>
+    <file>Resources/Login Icon.png</file>
+    <file>Resources/coverTest.png</file>
+    <file>Resources/exit.png</file>
+  </qresource>
+</RCC>
